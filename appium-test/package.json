@@ -1,0 +1,19 @@
+{
+  "name": "appium-test",
+  "version": "1.0.0",
+  "scripts": {
+    "app:test": "npx wdio run wdio.app.conf.js"
+  },
+  "author": "Nourilee Santos",
+  "license": "ISC",
+  "description": "Appium Test for Billease",
+  "devDependencies": {
+    "@wdio/appium-service": "^8.39.1",
+    "@wdio/cli": "^8.39.1",
+    "@wdio/local-runner": "^8.39.1",
+    "@wdio/mocha-framework": "^8.39.0",
+    "@wdio/spec-reporter": "^8.39.0",
+    "appium-uiautomator2-driver": "^3.7.2",
+    "chai": "^5.1.1"
+  }
+}
