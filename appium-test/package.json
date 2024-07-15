@@ -2,7 +2,8 @@
   "name": "appium-test",
   "version": "1.0.0",
   "scripts": {
-    "app:test": "npx wdio run wdio.app.conf.js"
+    "app:test": "npx wdio run wdio.app.conf.js",
+    "browser:test": "npx wdio run wdio.browser.conf.js"
   },
   "author": "Nourilee Santos",
   "license": "ISC",
